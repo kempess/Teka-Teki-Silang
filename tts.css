@@ -1,0 +1,73 @@
+* {
+  font-family: "Lucida Grande";
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  padding: 3px;
+}
+
+.teka-teki-silang {
+  padding-top: 25px;
+  height: 400px;
+  display: flex;
+}
+
+.judul {
+  padding-left: 40px;
+  flex: 1;
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+
+.isi {
+  flex: 1;
+  width: 50%;
+  height: 400px;
+}
+
+.jawab{
+  width: 100%;
+  text-align: center;
+}
+.hitam {
+  background-color: #000;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+table {
+  text-align: center;
+
+}
+td, td input {
+  width: 40px;
+  height: 30px;
+}
+td {
+  border: 1px solid black;
+  margin: 0.5px;
+}
+
+td input {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 10px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.no-soal {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  float: left;
+}
